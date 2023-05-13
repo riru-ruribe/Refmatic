@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ee157497487499c9dea90bf8198081, type: 3}
+  m_Name: RefmaticAttributeMetaPrefs
+  m_EditorClassIdentifier: 
+  scripts:
+  - t: Beryl.Samples.RefmaticLoadTypeTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/LoadType/RefmaticLoadTypeTest.cs
+    fs:
+    - nm: colors
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318720
+  - t: Beryl.Samples.RefmaticImageCounterTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/ImageCounter/RefmaticImageCounterTest.cs
+    fs:
+    - nm: images
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318721
+    - nm: sprites
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318722
+  - t: Beryl.Samples.RefmaticGenericKeyTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/GenericKey/RefmaticGenericKeyTest.cs
+    fs:
+    - nm: sprites
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318723
+  - t: Beryl.Samples.RefmaticTupleTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/Tuple/RefmaticTupleTest.cs
+    fs:
+    - nm: loggers
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318724
+  - t: Beryl.Samples.RefmaticSingleTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/Single/RefmaticSingleTest.cs
+    fs:
+    - nm: rts
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318725
+  - t: Beryl.Samples.RefmaticExecutableMyselfTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/ExecutableMyself/RefmaticExecutableMyselfTest.cs
+    fs:
+    - nm: rt
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318726
+  - t: Beryl.Samples.RefmaticScriptableObjectTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/ScriptableObject/RefmaticScriptableObjectTest.cs
+    fs:
+    - nm: clrMatMap
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318727
+  - t: Beryl.Samples.RefmaticExecutableLoadTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/ExecutableLoad/RefmaticExecutableLoadTest.cs
+    fs:
+    - nm: prefab
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318728
+    - nm: clrs
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318729
+    - nm: tuple1
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318730
+    - nm: tuple2
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318731
+  - t: Beryl.Samples.RefmaticExecutableChildTest, Beryl.Samples
+    p: Assets/Beryl/Samples/Runtime/Refmatic/UseCases/ExecutableChild/RefmaticExecutableChildTest.cs
+    fs:
+    - nm: t
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318732
+    - nm: t2
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318733
+    - nm: ary
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318734
+    - nm: tuple1
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318735
+    - nm: tuple2
+      bidx: 0
+      bflg: 0
+      e:
+        rid: 2108291860268318736
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 2108291860268318720
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318737
+    - rid: 2108291860268318721
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318738
+    - rid: 2108291860268318722
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318739
+    - rid: 2108291860268318723
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318740
+    - rid: 2108291860268318724
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318741
+    - rid: 2108291860268318725
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318742
+    - rid: 2108291860268318726
+      type: {class: RefmaticExecutableMyselfAttribute, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318727
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318743
+    - rid: 2108291860268318728
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318744
+    - rid: 2108291860268318729
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318745
+    - rid: 2108291860268318730
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318746
+    - rid: 2108291860268318731
+      type: {class: RefmaticExecutableLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318747
+    - rid: 2108291860268318732
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318748
+    - rid: 2108291860268318733
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318749
+    - rid: 2108291860268318734
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318750
+    - rid: 2108291860268318735
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318751
+    - rid: 2108291860268318736
+      type: {class: RefmaticExecutableChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        executor:
+          rid: 2108291860268318752
+    - rid: 2108291860268318737
+      type: {class: RefmaticLoadSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318753
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318755
+    - rid: 2108291860268318738
+      type: {class: RefmaticChildSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318756
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318739
+      type: {class: RefmaticLoadSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318758
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318740
+      type: {class: RefmaticLoadSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318759
+        sl:
+          rid: 2108291860268318760
+        gk:
+          rid: 2108291860268318761
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318741
+      type: {class: RefmaticLoadTupleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318762
+        - rid: 2108291860268318763
+        sl:
+          rid: 2108291860268318764
+        gk:
+          rid: -2
+        lts:
+        - rid: 2108291860268318757
+        - rid: 2108291860268318765
+    - rid: 2108291860268318742
+      type: {class: RefmaticChildSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318766
+        sl:
+          rid: 2108291860268318767
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318743
+      type: {class: RefmaticLoadTupleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318768
+        - rid: 2108291860268318769
+        sl:
+          rid: 2108291860268318770
+        gk:
+          rid: 2108291860268318771
+        lts:
+        - rid: 2108291860268318772
+        - rid: 2108291860268318757
+    - rid: 2108291860268318744
+      type: {class: RefmaticLoadSingleExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318773
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318745
+      type: {class: RefmaticLoadSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318774
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318772
+    - rid: 2108291860268318746
+      type: {class: RefmaticLoadTupleExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318775
+        - rid: 2108291860268318776
+        sl:
+          rid: 2108291860268318777
+        gk:
+          rid: -2
+        lts:
+        - rid: 2108291860268318757
+        - rid: 2108291860268318772
+    - rid: 2108291860268318747
+      type: {class: RefmaticLoadTupleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318778
+        - rid: 2108291860268318779
+        sl:
+          rid: 2108291860268318770
+        gk:
+          rid: 2108291860268318771
+        lts:
+        - rid: 2108291860268318757
+        - rid: 2108291860268318772
+    - rid: 2108291860268318748
+      type: {class: RefmaticChildSingleExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318780
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318749
+      type: {class: RefmaticChildSingleExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318781
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318750
+      type: {class: RefmaticChildSingleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elm:
+          rid: 2108291860268318782
+        sl:
+          rid: 2108291860268318754
+        gk:
+          rid: -2
+        lt:
+          rid: 2108291860268318757
+    - rid: 2108291860268318751
+      type: {class: RefmaticChildTupleExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318783
+        - rid: 2108291860268318784
+        sl:
+          rid: 2108291860268318777
+        gk:
+          rid: -2
+        lts:
+        - rid: 2108291860268318757
+        - rid: 2108291860268318757
+    - rid: 2108291860268318752
+      type: {class: RefmaticChildTupleArrayExecutor, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        elmLen: 2
+        elms:
+        - rid: 2108291860268318785
+        - rid: 2108291860268318786
+        sl:
+          rid: 2108291860268318770
+        gk:
+          rid: 2108291860268318771
+        lts:
+        - rid: 2108291860268318757
+        - rid: 2108291860268318757
+    - rid: 2108291860268318753
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^beryl_clr_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Colors/
+        nameComparison:
+          rid: 2108291860268318787
+    - rid: 2108291860268318754
+      type: {class: RefmaticSingleSelector2, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318755
+      type: {class: RefmaticLoadTypeTest/Selector, ns: Beryl.Samples, asm: Beryl.Samples}
+    - rid: 2108291860268318756
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: img_
+        nameComparison:
+          rid: 2108291860268318788
+    - rid: 2108291860268318757
+      type: {class: RefmaticLoadTypeDefaultSelector, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318758
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: beryl_num_
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/NumSprites/
+        nameComparison:
+          rid: 2108291860268318789
+    - rid: 2108291860268318759
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: log_img_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Loggers/
+        nameComparison:
+          rid: 2108291860268318790
+    - rid: 2108291860268318760
+      type: {class: RefmaticSingleSelector1, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318761
+      type: {class: RefmaticGenericKeyTest/Selector, ns: Beryl.Samples, asm: Beryl.Samples}
+    - rid: 2108291860268318762
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^log_img_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Loggers/
+        nameComparison:
+          rid: 2108291860268318791
+    - rid: 2108291860268318763
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^TestLogger\d{1,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Loggers/
+        nameComparison:
+          rid: 2108291860268318792
+    - rid: 2108291860268318764
+      type: {class: RefmaticTupleTest/Selector, ns: Beryl.Samples, asm: Beryl.Samples}
+    - rid: 2108291860268318765
+      type: {class: RefmaticLoadTypeMonoScriptSelector, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318766
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: img_
+        nameComparison:
+          rid: 2108291860268318793
+    - rid: 2108291860268318767
+      type: {class: RefmaticSingleTest/Selector, ns: Beryl.Samples, asm: Beryl.Samples}
+    - rid: 2108291860268318768
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^beryl_clr_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Colors/
+        nameComparison:
+          rid: 2108291860268318794
+    - rid: 2108291860268318769
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^beryl_mat_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Materials/
+        nameComparison:
+          rid: 2108291860268318795
+    - rid: 2108291860268318770
+      type: {class: RefmaticTupleSelector2, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318771
+      type: {class: RefmaticGenericKeyIntSelector, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318772
+      type: {class: RefmaticLoadTypeColorSelector, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318773
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: Prefab
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Prefabs/
+        nameComparison:
+          rid: 2108291860268318796
+    - rid: 2108291860268318774
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^beryl_clr_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Colors/
+        nameComparison:
+          rid: 2108291860268318797
+    - rid: 2108291860268318775
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: beryl_mat_
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Materials/
+        nameComparison:
+          rid: 2108291860268318798
+    - rid: 2108291860268318776
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: beryl_clr_
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Colors/
+        nameComparison:
+          rid: 2108291860268318799
+    - rid: 2108291860268318777
+      type: {class: RefmaticTupleSelector1, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318778
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: beryl_mat_
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Materials/
+        nameComparison:
+          rid: 2108291860268318800
+    - rid: 2108291860268318779
+      type: {class: RefmaticElementLoadAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ^beryl_clr_\d{2,}
+        searchInFolders:
+        - Assets/Beryl/Samples/Runtime/Refmatic/Colors/
+        nameComparison:
+          rid: 2108291860268318801
+    - rid: 2108291860268318780
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: t
+        nameComparison:
+          rid: 2108291860268318802
+    - rid: 2108291860268318781
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: aaaaa
+        nameComparison:
+          rid: 2108291860268318803
+    - rid: 2108291860268318782
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ary_
+        nameComparison:
+          rid: 2108291860268318804
+    - rid: 2108291860268318783
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ary_
+        nameComparison:
+          rid: 2108291860268318805
+    - rid: 2108291860268318784
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: img_
+        nameComparison:
+          rid: 2108291860268318806
+    - rid: 2108291860268318785
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: ary_
+        nameComparison:
+          rid: 2108291860268318807
+    - rid: 2108291860268318786
+      type: {class: RefmaticElementChildAttribute, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        key: img_
+        nameComparison:
+          rid: 2108291860268318808
+    - rid: 2108291860268318787
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318788
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318789
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318790
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318791
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318792
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318793
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318794
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318795
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318796
+      type: {class: RefmaticNameEndsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318797
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318798
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318799
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318800
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318801
+      type: {class: RefmaticNameRegex, ns: Beryl.Refmatic, asm: Beryl}
+      data:
+        options: 0
+    - rid: 2108291860268318802
+      type: {class: RefmaticNameEquals, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318803
+      type: {class: RefmaticNameEquals, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318804
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318805
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318806
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318807
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
+    - rid: 2108291860268318808
+      type: {class: RefmaticNameStartsWith, ns: Beryl.Refmatic, asm: Beryl}
