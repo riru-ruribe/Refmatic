@@ -88,5 +88,22 @@ namespace Beryl.Refmatic
             }
             folders.Clear();
         }
+
+        internal void Validate()
+        {
+            int idx = 0;
+            while (idx < folders.Count)
+            {
+                var folder = folders[idx];
+                var importer = AssetImporter.GetAtPath(folder.Name);
+                // folder was deleted.
+                if (importer == null)
+                {
+                    folders.Remove(folder);
+                    continue;
+                }
+                idx++;
+            }
+        }
     }
 }

@@ -91,10 +91,11 @@ namespace Beryl.Refmatic
         internal sealed class FolderMetaPrefs : ModeBase
         {
             [MenuItem(_MenuPath + "Meta/Validate FolderMetaPrefs", false, 97)]
-            static void Update()
+            static void Validate()
             {
-                AssetDatabase.ImportAsset("Assets", ImportAssetOptions.ForceUpdate | ImportAssetOptions.ImportRecursive);
-                RefmaticFolderMetaPrefs.Instance.Delete();
+                RefmaticFolderMetaPrefs.Instance.Validate();
+                EditorUtility.SetDirty(RefmaticFolderMetaPrefs.Instance);
+                AssetDatabase.SaveAssets();
             }
             [MenuItem(_MenuPath + "Meta/Delete FolderMetaPrefs", false, 99)]
             static void Delete()
