@@ -96,6 +96,7 @@ namespace Beryl.Refmatic
                                 if (go == null) continue; // not parent
                                 LogEvent(kind, go);
                                 RefmaticContext.OnChanged<IAutoRefmatic>(go.transform);
+                                RefmaticContext.OnChangedInChild<IAutoRefmatic>(go.transform); // one parent may not be enough.
                             }
                             break;
 #endif
