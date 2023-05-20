@@ -11,7 +11,7 @@ Scripts that use attributes provided by 'Refmatic' and folders to be automatical
 
 Specifically, the following classes
 - **RefmaticAttributeMetaPrefs**
-  - automatically updated when changes are detected in AssetPostprocessor.OnPostprocessAllAssets after compilation.
+  - automatically updated when changes are detected in 'AssetPostprocessor.OnPostprocessAllAssets' after compilation.
   - not need to be aware.
 - **RefmaticFolderMetaPrefs**
   - changed the Inspector layout of the folder to its own format.
@@ -64,8 +64,8 @@ Detailed sample is provided in the following folder.
 However, it is certainly not very practical.
 
 ## Movies
-https://github.com/riru-ruribe/Refmatic/assets/76834817/5441df38-ff59-452b-9da9-75c14b831533
+https://github.com/riru-ruribe/Refmatic/assets/76834817/f09527ab-ba49-477e-a297-0599189c6c6d
 
-https://github.com/riru-ruribe/Refmatic/assets/76834817/78c90be5-9179-423a-a356-3c32a7d2e080
+https://github.com/riru-ruribe/Refmatic/assets/76834817/90497d3c-c588-4bfa-8827-396379775403
 
-https://github.com/riru-ruribe/Refmatic/assets/76834817/ed0eb210-d864-4466-a3dc-df071a6a6ffe
+https://github.com/riru-ruribe/Refmatic/assets/76834817/003db7bf-e493-4db7-be94-eb724513ffc2
